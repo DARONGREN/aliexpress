@@ -86,7 +86,7 @@ watchEffect(async () => {
 
     isUpdate.value = true
   }
-  useUserStore.isLoading = false
+  userStore.isLoading = false
 })
 
 const submit = async () => {
